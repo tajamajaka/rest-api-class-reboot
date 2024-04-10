@@ -4,7 +4,7 @@ const User = require('./api/models/user.model.js');
 
 const express = require("express");
 const morgan = require("morgan");
-const port = 3001;
+const port = 3000;
 
 async function checkAndSync(){
     await checkConnection();
